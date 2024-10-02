@@ -74,17 +74,7 @@ Assignment: Networking in Azure and GCP - IPs and Domain Management
 
 
 #### 6. Access Your Application via Domain
-- Visit your deployed Flask application using the custom domain or subdomain you mapped, including the port number in the URL (e.g., `http://app.yourdomain.com:5000`).
 
-
-  
-#### 7. Submit Your Work
-- Create a Markdown document that includes:
-  - Screenshots of the VPC/VNet creation and IP reservation process in both Azure and GCP.
-  - Screenshots and documentation of the steps taken to map the IP address to the domain (including the creation of A records and subdomains).
-  - Screenshots of the running Flask application accessible via your domain or subdomain.
-  - Documentation on how you configured the firewall rules to allow access to the Flask app.
- 
   
 ### Errors 
 On Azure I was unable to "Configure Network Security Group (NSG) rules to allow inbound traffic on the specified port" for my virtual network. The photo I attached shows how I would be able to adjust those settings when creating a virtual machine on azure instead. In the virtual network, I was able to navigate to a firewall tab that allowed me create a new one, however I had trouble doing so. 
